@@ -23,14 +23,16 @@ int filaCheia(Fila *ptrFila);
 
 int filaVazia(Fila *ptrFila);
 
-int insereFila(Fila *ptrFila);
-
-int consultaFila(Fila *ptrFila);
+int insereFila(Fila *ptrFila, Aluno regAluno);
 
 int removeFila(Fila *ptrFila);
 
+int consultaFila(Fila *ptrFila, Aluno *regAluno);
+
 void liberaFila(Fila *ptrFila);
 
+
+void exibeElementos(Fila *ptrFila);
 
 
 
